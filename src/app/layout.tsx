@@ -1,3 +1,5 @@
+import Header from "./components/Header"
+
 export default function RootLayout({
     children,
 }: {
@@ -11,7 +13,7 @@ export default function RootLayout({
                     padding: '1rem'
                 }}
             >
-                Header
+                <Header />
             </header>   
             <body>
                 <main>{children}</main>
